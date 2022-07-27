@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; to remove the gap between the elements */
+  box-sizing: inherit; /* bunu burada tanimlamak yerine body icerisine tanimlayabiliriz bu sekilde miras almis oluruz */
+}
+
+/* root olarak html icerisinde font-size i belirleyip projemizi rem e cevirecegiz */
+html {
+  // this defines the base font-size for our project
+  font-size: 62.5%; /*10px = 16 px .62.5 default: 16px */
+  /* font-size: 10px; */
+}
+
+body {
+  box-sizing: border-box;
+}
